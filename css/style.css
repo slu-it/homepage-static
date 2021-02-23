@@ -6,23 +6,6 @@ body {
     margin: 0 0 0 0;
 }
 
-#games-header {
-    text-align: center;
-}
-
-#games {
-    text-align: center;
-    padding-bottom: 100px;
-}
-
-#games img {
-    border: 1px solid #888888;
-}
-
-#games .platinum {
-    border: 1px solid #88DD88;
-}
-
 #footer {
     text-align: center;
     border-top: .1em solid #000000;
