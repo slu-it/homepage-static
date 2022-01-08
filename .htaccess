@@ -1,16 +1,3 @@
 RewriteEngine On
 RewriteCond %{SERVER_PORT} !=443
 RewriteRule ^(.*)$ https://slu-it.de/$1 [R=301,L]
-
-<FilesMatch "\.(css|html)$">
-    <IfModule mod_headers.c>
-        FileETag None
-        Header unset ETag
-        Header unset Pragma
-        Header unset Cache-Control
-        Header unset Last-Modified
-        Header set Pragma "no-cache"
-        Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
-        Header set Expires "Thu, 1 Jan 1970 00:00:00 GMT"
-    </IfModule>
-</FilesMatch>
