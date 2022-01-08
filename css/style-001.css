@@ -8,13 +8,18 @@ body {
 
 .identity {
   text-align: center;
-  margin: 1em;
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin: 10em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .identityIcon {
   height: 4em;
+  margin: 0.5em;
+}
+
+.languageIcon {
+  height: 2em;
   margin: 0.5em;
 }
 
@@ -23,7 +28,7 @@ body {
   bottom: 64px;
   left: 0;
   right: 0;
-  width: 15em;
+  width: 10em;
   z-index: -1;
 }
 
