@@ -6,6 +6,18 @@ body {
     margin: 0 0 0 0;
 }
 
+.identity {
+  text-align: center;
+  margin: 1em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.identityIcon {
+  height: 5em;
+  margin: 0.5em;
+}
+
 #memoji {
   position: fixed;
   bottom: 64px;
