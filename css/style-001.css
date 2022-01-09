@@ -6,11 +6,19 @@ body {
     margin: 0 0 0 0;
 }
 
+.hSeparator {
+  text-align: center;
+}
+
+.hSeparator .seperator {
+  width: 20em;
+}
+
 .identity {
   text-align: center;
   margin: 10em;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .identityIcon {
