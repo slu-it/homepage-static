@@ -6,11 +6,7 @@ body {
     margin: 0 0 0 0;
 }
 
-.hSeparator {
-  text-align: center;
-}
-
-.hSeparator .seperator {
+.seperator {
   width: 20em;
 }
 
@@ -21,33 +17,25 @@ body {
   margin-bottom: 1em;
 }
 
+.identityIconS {
+  height: 3em;
+  margin: 0.5em;
+}
+
 .identityIcon {
-  height: 3.5em;
+  height: 4em;
+  margin: 0.5em;
+}
+
+.identityIconL {
+  height: 6em;
   margin: 0.5em;
 }
 
 .languageIcon {
   height: 2em;
   margin: 0.5em;
-}
-
-#identityText {
-  position: fixed;
-  text-align: center;
-  font-size: 0.75em;
-  color: #cfcfcf;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  margin: 10em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-#statementIcons {
-  position: fixed;
-  top: 1em;
-  right: 1em;
+  padding-bottom: 2em;
 }
 
 #memoji {
@@ -57,20 +45,6 @@ body {
   right: 0;
   width: 10em;
   z-index: -1;
-}
-
-#prideIcon {
-    position: fixed;
-    top: 1em;
-    right: 1em;
-    height: 3.5em;
-}
-
-#antiRacismIcon {
-    position: fixed;
-    top: 5.5em;
-    right: 1em;
-    height: 3.5em;
 }
 
 #footer {
